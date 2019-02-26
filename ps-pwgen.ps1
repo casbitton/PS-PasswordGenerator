@@ -1,5 +1,5 @@
 # Check for word lists
-if ((Get-ChildItem ./words/).count -eq 0) {
+if ((Get-ChildItem .\words\).count -eq 0) {
     Write-Host "Hey, you forgot to add the word lists!" -ForegroundColor Yellow
     exit
 }
@@ -10,7 +10,7 @@ Write-Host "$HowManyPasswords fresh passwords coming right up!
 " -ForegroundColor Green
 
 # Read word list
-$WordList = Get-Content ./words/*.txt
+$WordList = Get-Content .\words\*.txt
 
 # Shake the jar!
 $WordList = $WordList | Sort-Object {Get-Random}
