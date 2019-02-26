@@ -1,8 +1,10 @@
-# 🔑 Powershell Password Generator
+## 🔑 Powershell Password Generator
 
 Quick [xkcd](https://xkcd.com/936/) inspired script to generate temporary passwords.
 
-# Example
+---
+
+## Example
 
 `ps-pwgen.ps1`
 
@@ -20,7 +22,9 @@ HappyNauticalDirectPremium
 
 ~~~
 
-# 📔 BYO Word list
+---
+
+## 📔 BYO Word list
 #### A few sample word lists to start things off
 
 Drop word lists into `words` folder.
